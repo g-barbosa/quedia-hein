@@ -37,3 +37,7 @@ serverless deploy
 * Faça suas alterações e seu commit (seja descritivo)
 * Dê um  git push
 * Abra uma pull request
+
+
+## Referências
+* [OauthHelper](https://stackoverflow.com/questions/56398985/oauth1-0-header-in-node-js)
