@@ -6,7 +6,8 @@ const baseTweetsUrl = 'https://api.twitter.com/2/users'
 
 export const handler = async () => {
 
-  const weekdayIndex = new Date().getDay() - 1
+  const weekdayIndex = new Date().getDay()
+  console.log(weekdayIndex)
   const weekday = week[weekdayIndex];
 
   const profile = profiles.find(profile => profile.weekday == weekday)
