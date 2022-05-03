@@ -16,7 +16,7 @@ npm i
 Crie um arquivo .env e use o .env_sample como base para criar as variaveis de ambiente.
 Para conseguir as credenciais você precisa entrar no [Developer Portal](https://developer.twitter.com/en) e pedir para liberar suas credenciais (lá tem toda uma documentação explicando direitinho).
 
-Para conseguir pegar a variavel `USERID`, você pode fazer uma requisição para: `GET: https://api.twitter.com/2/users/by/username/<seu@>` e pegar o id que virá na response.
+Para conseguir pegar a variavel `USERID`, você pode fazer uma requisição para: `GET: https://api.twitter.com/2/users/by/username/<seu@>` e pegar o id que virá na response (não esqueça de se autenticar).
 
 
 ## Deploy
