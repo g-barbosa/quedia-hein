@@ -5,10 +5,10 @@ const profiles = [
     weekday: "segunda-feira",
     profileId: "1498313907307491328"
   },
-  // {
-  //   weekday: "terça-feira",
-  //   profileId: ""
-  // },
+  {
+    weekday: "terça-feira",
+    profileId: "1488656245200408583"
+  },
   {
     weekday: "quarta-feira",
     profileId: "1205150923934306304"
