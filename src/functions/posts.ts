@@ -5,9 +5,9 @@ import { profiles, week } from '../utils/memes'
 const baseTweetsUrl = 'https://api.twitter.com/2/users'
 
 export const handler = async () => {
+  const timeZone = new Date().toLocaleString('pt-BR', {timeZone: 'America/Sao_Paulo'})
+  const weekdayIndex = new Date(timeZone).getDay()
 
-  const weekdayIndex = new Date().getDay()
-  console.log(weekdayIndex)
   const weekday = week[weekdayIndex];
 
   const profile = profiles.find(profile => profile.weekday == weekday)
