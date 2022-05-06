@@ -24,9 +24,14 @@ const serverlessConfiguration: AWS = {
     quediahein: {
       handler: "src/functions/posts.handler",
       timeout: 30,
-      events: [{
-        schedule: "rate(1 day)"
-      }]
+      events: [
+        {
+          schedule: "cron(0 10 ? * MON-THU *)"
+        },
+        {
+          schedule: "cron(0 20 ? * FRI *)"
+        }
+      ]
     }
    },
   package: { individually: true },
