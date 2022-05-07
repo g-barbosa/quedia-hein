@@ -5,8 +5,8 @@ import { profiles, week } from '../utils/memes'
 const baseTweetsUrl = 'https://api.twitter.com/2/users'
 
 export const handler = async () => {
-  const timeZone = new Date().toLocaleString('pt-BR', {timeZone: 'America/Sao_Paulo'})
-  const weekdayIndex = new Date(timeZone).getDay()
+  let weekdayIndex = new Date().getDay()
+  weekdayIndex = weekdayIndex > 5 ? 5 : weekdayIndex
 
   const weekday = week[weekdayIndex];
 

@@ -29,7 +29,7 @@ const serverlessConfiguration: AWS = {
           schedule: "cron(0 10 ? * MON-THU *)"
         },
         {
-          schedule: "cron(0 20 ? * FRI *)"
+          schedule: "cron(0 21 ? * FRI *)"
         }
       ]
     }
