@@ -3,23 +3,23 @@ const week = ["domingo", "segunda-feira", "terça-feira", "quarta-feira", "quint
 const profiles = [
   {
     weekday: "segunda-feira",
-    profileId: "1498313907307491328"
+    profilesId: ["1498313907307491328"]
   },
   {
     weekday: "terça-feira",
-    profileId: "1488656245200408583"
+    profilesId: ["1488656245200408583"]
   },
   {
     weekday: "quarta-feira",
-    profileId: "1205150923934306304"
+    profilesId: ["1205150923934306304"]
   },
   {
     weekday: "quinta-feira",
-    profileId: "1100754444508151808"
+    profilesId: ["1100754444508151808", "1385249002543845379"]
   },
   {
     weekday: "sexta-feira",
-    profileId: "1288226864457084928"
+    profilesId: ["1288226864457084928", "1511742085774389253"]
   },
 ]
 

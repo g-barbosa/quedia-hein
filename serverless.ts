@@ -26,10 +26,10 @@ const serverlessConfiguration: AWS = {
       timeout: 30,
       events: [
         {
-          schedule: "cron(0 10 ? * MON-THU *)"
+          schedule: "cron(0 15 ? * MON-FRI *)"
         },
         {
-          schedule: "cron(0 21 ? * FRI *)"
+          schedule: "cron(59 23 ? * FRI *)"
         }
       ]
     }
