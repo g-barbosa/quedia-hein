@@ -11,7 +11,7 @@ const profiles = [
   },
   {
     weekday: "quarta-feira",
-    profilesId: ["1205150923934306304"]
+    profilesId: ["1205150923934306304", "1359938977877413891"]
   },
   {
     weekday: "quinta-feira",
